@@ -1369,6 +1369,7 @@
 
         /* FAQ */
         .faq-list {
+            margin: 0 auto;
             max-width: 680px;
             margin-top: 48px;
         }
