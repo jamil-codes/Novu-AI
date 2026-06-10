@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Novu AI — Turn meeting chaos into instant clarity</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Instrument+Serif:ital@0;1&display=swap"
+          rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav id="navbar">
+        <a href="#" class="logo">
+            <div class="logo-mark"></div>
+            Novu AI
+        </a>
+        <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how-it-works">How it works</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <div class="nav-cta">
+            <button class="btn-ghost sign-in-button">Sign in</button>
+            <button class="btn-primary">Start free →</button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <div class="hero">
+        <div class="hero-grid"></div>
+        <div class="hero-glow"></div>
+        <div class="hero-badge">
+            <div class="badge-dot"></div>
+            AI for Zoom &amp; Google Meet
+        </div>
+        <h1>Turn meeting <em>chaos</em><br />into instant clarity.</h1>
+        <p class="hero-sub">
+            Novu joins your call, listens, and hands you a crisp summary and clear action items — seconds after you hang
+            up.
+        </p>
+        <div class="hero-actions">
+            <button class="btn-hero">Get started free</button>
+            <button class="btn-hero-ghost">▶ &nbsp; Watch 90-second demo</button>
+        </div>
+        <p class="hero-note"><span>✓ Free forever</span> &nbsp;·&nbsp; No credit card &nbsp;·&nbsp; Works on Zoom &amp;
+            Meet</p>
+
+        <!-- DEMO CARD -->
+        <div class="hero-card">
+            <div class="card-bar">
+                <span class="dot dot-r"></span>
+                <span class="dot dot-y"></span>
+                <span class="dot dot-g"></span>
+                <span class="card-bar-title">Q3 Planning — Novu AI is live</span>
+            </div>
+            <div class="card-body">
+                <div class="meeting-raw">
+                    <div class="meeting-raw-label">Live transcript</div>
+                    <div class="transcript-line faded"><strong>Sarah:</strong> …so the roadmap for Q3, we need to
+                        finalize it today.</div>
+                    <div class="transcript-line faded"><strong>Jake:</strong> I can have the design spec ready by end of
+                        week, definitely.</div>
+                    <div class="transcript-line"><strong>Sarah:</strong> Perfect. And who's handling the Stripe
+                        integration?</div>
+                    <div class="transcript-line"><strong>Marcus:</strong> That's on me. I'll have a PR up by Thursday.
+                    </div>
+                    <div class="transcript-line"><strong>Sarah:</strong> Great. Someone needs to prep the board deck too
+                        before Friday.</div>
+                    <div class="transcript-line"><strong>Jake:</strong> I can do that — I'll coordinate with Amy on the
+                        metrics.</div>
+                </div>
+                <div class="meeting-summary">
+                    <div class="summary-label">Novu AI summary</div>
+                    <div class="ai-badge">
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                            <circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.2" />
+                            <path d="M4 6l1.5 1.5L8 4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"
+                                  stroke-linejoin="round" />
+                        </svg>
+                        Generated in 3 seconds
+                    </div>
+                    <div class="summary-box">
+                        <div class="summary-title">Q3 Planning Sync</div>
+                        <div class="summary-text">Team aligned on Q3 roadmap milestones. Three deliverables assigned
+                            with clear owners and deadlines. Board presentation is the critical-path item before Friday.
+                        </div>
+                    </div>
+                    <div class="action-items">
+                        <div class="action-title">Action items (3)</div>
+                        <div class="action-item" style="animation-delay:0.1s">
+                            <div class="check-icon"><svg viewBox="0 0 10 10" fill="none">
+                                    <path d="M2 5l2.5 2.5L8 3" stroke="#5b4de8" stroke-width="1.5"
+                                          stroke-linecap="round" stroke-linejoin="round" />
+                                </svg></div>
+                            <span>Finalize design spec and share with team</span>
+                            <div class="action-assignee">Jake</div>
+                        </div>
+                        <div class="action-item" style="animation-delay:0.2s">
+                            <div class="check-icon"><svg viewBox="0 0 10 10" fill="none">
+                                    <path d="M2 5l2.5 2.5L8 3" stroke="#5b4de8" stroke-width="1.5"
+                                          stroke-linecap="round" stroke-linejoin="round" />
+                                </svg></div>
+                            <span>Submit Stripe integration PR by Thursday</span>
+                            <div class="action-assignee">Marcus</div>
+                        </div>
+                        <div class="action-item" style="animation-delay:0.3s">
+                            <div class="check-icon"><svg viewBox="0 0 10 10" fill="none">
+                                    <path d="M2 5l2.5 2.5L8 3" stroke="#5b4de8" stroke-width="1.5"
+                                          stroke-linecap="round" stroke-linejoin="round" />
+                                </svg></div>
+                            <span>Prep board deck with Amy (metrics) by Friday</span>
+                            <div class="action-assignee">Jake</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="send-to">Send to:</div>
+                <div class="integration-pill">
+                    <div class="integration-icon slack-icon">#</div>
+                    Slack
+                </div>
+                <div class="integration-pill">
+                    <div class="integration-icon notion-icon">N</div>
+                    Notion
+                </div>
+                <div class="time-badge">Delivered in 3s</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TRUST BAR -->
+    <div class="trust-bar">
+        <div class="trust-label">Trusted by teams at</div>
+        <div class="trust-logos">
+            <div class="trust-logo">Stripe</div>
+            <div class="trust-logo">Figma</div>
+            <div class="trust-logo">Linear</div>
+            <div class="trust-logo">Vercel</div>
+            <div class="trust-logo">Loom</div>
+            <div class="trust-logo">Notion</div>
+            <div class="trust-logo">Intercom</div>
+        </div>
+    </div>
+
+    <!-- PAIN SECTION -->
+    <section>
+        <div class="reveal">
+            <div class="section-tag">The problem</div>
+            <h2 class="section-h">Your calendar is full.<br />Your memory <em>isn't.</em></h2>
+            <p class="section-sub">Most meeting notes are either missing, too long to read, or written by the one person
+                who was barely paying attention.</p>
+        </div>
+        <div class="pain-grid reveal" style="transition-delay:0.1s">
+            <div class="pain-card">
+                <div class="pain-number">01</div>
+                <div class="pain-title">The notes never happen</div>
+                <div class="pain-text">Someone always offers to "send a follow-up." That email never comes. Three days
+                    later, nobody remembers what was decided.</div>
+                <div class="pain-stat"><span class="count-num" data-target="73">0</span>%</div>
+                <div class="pain-stat-label">of meetings produce zero written record</div>
+            </div>
+            <div class="pain-card">
+                <div class="pain-number">02</div>
+                <div class="pain-title">Action items get lost</div>
+                <div class="pain-text">Tasks assigned verbally evaporate. Everyone leaves the call with a slightly
+                    different interpretation of what they agreed to do.</div>
+                <div class="pain-stat"><span class="count-num" data-target="62">0</span>%</div>
+                <div class="pain-stat-label">of action items are never completed</div>
+            </div>
+            <div class="pain-card">
+                <div class="pain-number">03</div>
+                <div class="pain-title">Hours lost to catch-up</div>
+                <div class="pain-text">People who missed the call spend 20 minutes chasing context. People who were
+                    there spend 10 minutes re-explaining it.</div>
+                <div class="pain-stat"><span class="count-num" data-target="31">0</span>hrs</div>
+                <div class="pain-stat-label">wasted per employee per year in recap loops</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" style="padding-top: 0;">
+        <div class="reveal features-intro">
+            <div class="section-tag">Features</div>
+            <h2 class="section-h">Everything you need.<br /><em>Nothing</em> you don't.</h2>
+            <p class="section-sub">Four things, done exceptionally well. No dashboards to configure. No training
+                required. Just meetings that actually move things forward.</p>
+        </div>
+        <div class="feat-grid">
+            <div class="feat-card accent-card reveal" style="transition-delay:0.05s">
+                <div class="feat-icon purple">🤖</div>
+                <div class="feat-title">Auto-join, zero friction</div>
+                <div class="feat-text">Connect your calendar and Novu shows up to every Zoom or Google Meet
+                    automatically. No link-pasting, no manual invites. It's just there — quietly — when the call begins.
+                </div>
+                <div class="feat-detail">Works with Zoom &amp; Meet</div>
+            </div>
+            <div class="feat-card reveal" style="transition-delay:0.1s">
+                <div class="feat-icon amber">⚡</div>
+                <div class="feat-title">Smart summaries</div>
+                <div class="feat-text">Not a transcript dump — an actual summary. Novu understands context, identifies
+                    decisions, and surfaces what matters. You get three sentences that replace 45 minutes of
+                    re-listening.</div>
+                <div class="feat-detail">Avg. 3-second delivery</div>
+            </div>
+            <div class="feat-card reveal" style="transition-delay:0.15s">
+                <div class="feat-icon green">✅</div>
+                <div class="feat-title">Action item extraction</div>
+                <div class="feat-text">Every "I'll take care of that" and "can you send me..." gets captured, named, and
+                    assigned. Novu knows who said it and what they committed to. No more wondering who owns what.</div>
+                <div class="feat-detail">Named, assigned, timestamped</div>
+            </div>
+            <div class="feat-card reveal" style="transition-delay:0.2s">
+                <div class="feat-icon blue">🔗</div>
+                <div class="feat-title">Slack &amp; Notion integration</div>
+                <div class="feat-text">The summary goes exactly where your team already works — posted to the right
+                    Slack channel, saved to the right Notion page, automatically. No copy-pasting, no formatting.</div>
+                <div class="feat-detail">More integrations coming</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how-it-works">
+        <div class="hiw-wrap">
+            <div>
+                <div class="reveal">
+                    <div class="section-tag">How it works</div>
+                    <h2 class="section-h">Three steps.<br /><em>Seconds</em> of setup.</h2>
+                    <p class="section-sub">Novu is designed to disappear into your workflow. You shouldn't have to think
+                        about it.</p>
+                </div>
+                <div class="hiw-steps reveal" style="margin-top:40px; transition-delay:0.1s">
+                    <div class="hiw-step">
+                        <div class="step-num">1</div>
+                        <div class="step-content">
+                            <div class="step-title">Connect your calendar</div>
+                            <div class="step-text">Link Google Calendar or Outlook in one click. Novu reads your
+                                upcoming calls and auto-joins Zoom and Meet links it finds.</div>
+                        </div>
+                    </div>
+                    <div class="hiw-step">
+                        <div class="step-num">2</div>
+                        <div class="step-content">
+                            <div class="step-title">Novu silently joins and listens</div>
+                            <div class="step-text">A small bot joins your call. Participants see it in the attendee
+                                list. It transcribes everything in real time, speaker by speaker.</div>
+                        </div>
+                    </div>
+                    <div class="hiw-step">
+                        <div class="step-num">3</div>
+                        <div class="step-content">
+                            <div class="step-title">Get your brief, instantly</div>
+                            <div class="step-text">Within seconds of the call ending, you receive a summary, decision
+                                log, and action item list. Delivered to your inbox, Slack, or Notion page.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hiw-visual reveal" style="transition-delay:0.2s">
+                <div class="visual-card">
+                    <div class="visual-header">
+                        <div class="zoom-dot"></div>
+                        <div class="zoom-dot"></div>
+                        <div class="zoom-dot"></div>
+                        <span class="visual-label">Novu AI — listening</span>
+                    </div>
+                    <div class="visual-body">
+                        <div class="waveform">
+                            <div class="wave-bar" style="height:35%"></div>
+                            <div class="wave-bar" style="height:60%"></div>
+                            <div class="wave-bar" style="height:80%"></div>
+                            <div class="wave-bar" style="height:45%"></div>
+                            <div class="wave-bar" style="height:70%"></div>
+                            <div class="wave-bar" style="height:30%"></div>
+                            <div class="wave-bar" style="height:55%"></div>
+                            <div class="wave-bar" style="height:75%"></div>
+                            <div class="wave-bar" style="height:40%"></div>
+                            <div class="wave-bar" style="height:90%"></div>
+                            <div class="wave-bar" style="height:50%"></div>
+                            <div class="wave-bar" style="height:65%"></div>
+                            <div class="wave-bar" style="height:35%"></div>
+                            <div class="wave-bar" style="height:80%"></div>
+                            <div class="wave-bar" style="height:55%"></div>
+                            <div class="wave-bar" style="height:40%"></div>
+                            <div class="wave-bar" style="height:70%"></div>
+                            <div class="wave-bar" style="height:85%"></div>
+                            <div class="wave-bar" style="height:45%"></div>
+                            <div class="wave-bar" style="height:60%"></div>
+                            <div class="wave-bar" style="height:75%"></div>
+                            <div class="wave-bar" style="height:50%"></div>
+                            <div class="wave-bar" style="height:35%"></div>
+                            <div class="wave-bar" style="height:65%"></div>
+                            <div class="wave-bar" style="height:80%"></div>
+                            <div class="wave-bar" style="height:40%"></div>
+                            <div class="wave-bar" style="height:55%"></div>
+                            <div class="wave-bar" style="height:70%"></div>
+                        </div>
+                        <div class="transcript-row">
+                            <div class="speaker-tag">S</div>
+                            <div class="speaker-text">Let's finalize the budget before we loop in procurement.</div>
+                        </div>
+                        <div class="transcript-row">
+                            <div class="speaker-tag">M</div>
+                            <div class="speaker-text">Agreed. I can put together a first draft by Wednesday.</div>
+                        </div>
+                        <div class="transcript-row">
+                            <div class="speaker-tag">S</div>
+                            <div class="speaker-text">Great. And we should also confirm the vendor timeline with Tom.
+                            </div>
+                        </div>
+                        <div class="transcript-row">
+                            <div class="speaker-tag">T</div>
+                            <div class="speaker-text">I'll reach out to them today and report back tomorrow morning.
+                            </div>
+                        </div>
+                        <div style="height:1px; background:var(--border); margin:16px 0;"></div>
+                        <div style="display:flex; align-items:center; gap:8px; font-size:13px; color:var(--ink3);">
+                            <div
+                                 style="width:8px;height:8px;border-radius:50%;background:var(--accent);animation:pulse 2s infinite;flex-shrink:0;">
+                            </div>
+                            Live · 23:14 elapsed · 4 participants
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTEGRATIONS -->
+    <div class="integrations-section full-w">
+        <div style="max-width:640px; margin:0 auto; padding: 0 40px;">
+            <div class="reveal">
+                <div class="section-tag" style="justify-content:center;">Integrations</div>
+                <h2 class="section-h">Works where you work.</h2>
+                <p class="section-sub" style="margin:0 auto;">Summaries land in the tools your team already lives in. No
+                    new apps to open.</p>
+            </div>
+        </div>
+        <div class="int-grid reveal" style="transition-delay:0.1s; padding: 0 40px;">
+            <div class="int-card">
+                <div class="int-logo zoom">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <rect width="24" height="24" rx="4" fill="#0b5cff" /><text x="4" y="17" font-size="13"
+                              font-weight="800" fill="white" font-family="Arial">Z</text>
+                    </svg>
+                </div>
+                Zoom
+            </div>
+            <div class="int-card">
+                <div class="int-logo meet">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <rect width="24" height="24" rx="4" fill="#00897b" /><text x="4" y="17" font-size="12"
+                              font-weight="800" fill="white" font-family="Arial">M</text>
+                    </svg>
+                </div>
+                Google Meet
+            </div>
+            <div class="int-card">
+                <div class="int-logo slack">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <rect width="24" height="24" rx="4" fill="#4a154b" /><text x="5" y="17" font-size="14"
+                              font-weight="800" fill="white" font-family="Arial">#</text>
+                    </svg>
+                </div>
+                Slack
+            </div>
+            <div class="int-card">
+                <div class="int-logo notion">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <rect width="24" height="24" rx="4" fill="#000" /><text x="6" y="17" font-size="13"
+                              font-weight="800" fill="white" font-family="Arial">N</text>
+                    </svg>
+                </div>
+                Notion
+            </div>
+            <div class="int-card">
+                <div class="int-logo calendar">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <rect width="24" height="24" rx="4" fill="#4285f4" /><text x="5" y="17" font-size="12"
+                              font-weight="800" fill="white" font-family="Arial">G</text>
+                    </svg>
+                </div>
+                Calendar
+            </div>
+            <div class="int-card">
+                <div class="int-logo teams">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <rect width="24" height="24" rx="4" fill="#4b53bc" /><text x="5" y="17" font-size="13"
+                              font-weight="800" fill="white" font-family="Arial">T</text>
+                    </svg>
+                </div>
+                MS Teams
+            </div>
+        </div>
+    </div>
+
+    <!-- TESTIMONIALS -->
+    <section>
+        <div class="reveal">
+            <div class="section-tag">What people say</div>
+            <h2 class="section-h">Teams that use it<br />can't <em>imagine</em> going back.</h2>
+        </div>
+        <div class="testi-grid">
+            <div class="testi-card reveal" style="transition-delay:0.05s">
+                <div class="testi-stars">★★★★★</div>
+                <div class="testi-quote">"I used to dread our Monday standups because I'd always forget what we talked
+                    about on Friday. Novu changed that. I actually <strong>show up prepared</strong> now."</div>
+                <div class="testi-author">
+                    <div class="testi-avatar" style="background:#e6f0ff; color:#185fa5;">SR</div>
+                    <div>
+                        <div class="testi-name">Sarah Reyes</div>
+                        <div class="testi-role">Product Manager, Figma</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card reveal" style="transition-delay:0.1s">
+                <div class="testi-stars">★★★★★</div>
+                <div class="testi-quote">"The action item extraction is <strong>genuinely scary-good</strong>. It caught
+                    three tasks I completely forgot I agreed to. My team thinks I've become a better listener."</div>
+                <div class="testi-author">
+                    <div class="testi-avatar" style="background:#e6f7f2; color:#0f6e56;">MK</div>
+                    <div>
+                        <div class="testi-name">Marcus Kim</div>
+                        <div class="testi-role">Engineering Lead, Linear</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card reveal" style="transition-delay:0.15s">
+                <div class="testi-stars">★★★★★</div>
+                <div class="testi-quote">"We have a distributed team across four time zones. Novu summaries mean
+                    <strong>no one is ever out of the loop</strong> — even if they couldn't make the call."
+                </div>
+                <div class="testi-author">
+                    <div class="testi-avatar" style="background:#fef3dc; color:#854f0b;">JT</div>
+                    <div>
+                        <div class="testi-name">Jamie Torres</div>
+                        <div class="testi-role">Head of Ops, Vercel</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing">
+        <div class="reveal" style="text-align:center; max-width:600px; margin: 0 auto 20px;">
+            <div class="section-tag" style="justify-content:center;">Pricing</div>
+            <h2 class="section-h">Start free.<br />Scale when you're <em>ready.</em></h2>
+            <p class="section-sub" style="margin:0 auto;">No surprise charges. Cancel any time. The free plan is
+                genuinely free, forever.</p>
+        </div>
+        <div class="pricing-grid">
+            <div class="pricing-card reveal" style="transition-delay:0.05s">
+                <div class="pricing-tier">Free</div>
+                <div class="pricing-price pricing-price-free">$0</div>
+                <div class="pricing-period">forever</div>
+                <div class="pricing-tagline">For individuals who want to try it without any commitment.</div>
+                <div class="pricing-divider"></div>
+                <div class="pricing-features">
+                    <div class="pricing-feat">
+                        <div class="pf-check">✓</div>5 meetings per month
+                    </div>
+                    <div class="pricing-feat">
+                        <div class="pf-check">✓</div>AI summary + action items
+                    </div>
+                    <div class="pricing-feat">
+                        <div class="pf-check">✓</div>Works with Zoom &amp; Meet
+                    </div>
+                    <div class="pricing-feat">
+                        <div class="pf-check">✓</div>Email delivery
+                    </div>
+                </div>
+                <button class="pricing-cta pricing-cta-free">Get started free</button>
+            </div>
+            <div class="pricing-card featured reveal" style="transition-delay:0.1s">
+                <div class="pricing-popular">Most popular</div>
+                <div class="pricing-tier">Pro</div>
+                <div class="pricing-price"><sup>$</sup>12</div>
+                <div class="pricing-period">per month, billed monthly</div>
+                <div class="pricing-tagline">For professionals who run back-to-back calls and need every meeting to
+                    count.</div>
+                <div class="pricing-divider"></div>
+                <div class="pricing-features">
+                    <div class="pricing-feat">
+                        <div class="pf-check">✓</div>Unlimited meetings
+                    </div>
+                    <div class="pricing-feat">
+                        <div class="pf-check">✓</div>Smart summaries + decisions log
+                    </div>
+                    <div class="pricing-feat">
+                        <div class="pf-check">✓</div>Action items with assignees
+                    </div>
+                    <div class="pricing-feat">
+                        <div class="pf-check">✓</div>Slack &amp; Notion integration
+                    </div>
+                    <div class="pricing-feat">
+                        <div class="pf-check">✓</div>Searchable meeting archive
+                    </div>
+                    <div class="pricing-feat">
+                        <div class="pf-check">✓</div>Priority support
+                    </div>
+                </div>
+                <button class="pricing-cta pricing-cta-pro">Start Pro — $12/mo</button>
+            </div>
+            <div class="pricing-card reveal" style="transition-delay:0.15s">
+                <div class="pricing-tier">Team</div>
+                <div class="pricing-price"><sup>$</sup>39</div>
+                <div class="pricing-period">per month, up to 10 seats</div>
+                <div class="pricing-tagline">For teams who want meeting intelligence shared across everyone, not just
+                    the note-taker.</div>
+                <div class="pricing-divider"></div>
+                <div class="pricing-features">
+                    <div class="pricing-feat">
+                        <div class="pf-check">✓</div>Everything in Pro
+                    </div>
+                    <div class="pricing-feat">
+                        <div class="pf-check">✓</div>Shared team dashboard
+                    </div>
+                    <div class="pricing-feat">
+                        <div class="pf-check">✓</div>Cross-meeting insights
+                    </div>
+                    <div class="pricing-feat">
+                        <div class="pf-check">✓</div>CRM &amp; project tool integrations
+                    </div>
+                    <div class="pricing-feat">
+                        <div class="pf-check">✓</div>Admin controls &amp; SSO
+                    </div>
+                    <div class="pricing-feat">
+                        <div class="pf-check">✓</div>Dedicated onboarding
+                    </div>
+                </div>
+                <button class="pricing-cta pricing-cta-team">Start Team plan</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" style="padding-top:0;">
+        <div class="reveal">
+            <div class="section-tag">Questions</div>
+            <h2 class="section-h">The ones you're<br />already <em>thinking.</em></h2>
+        </div>
+        <div class="faq-list reveal" style="transition-delay:0.1s">
+            <div class="faq-item">
+                <div class="faq-q">Does Novu record my meetings?<span class="faq-chevron">▾</span></div>
+                <div class="faq-a">
+                    <div class="faq-a-inner">Novu transcribes audio in real time but does not store permanent
+                        recordings. The transcript is processed to generate your summary and then deleted. You get the
+                        intelligence, not a surveillance archive.</div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">Do other participants know Novu is there?<span class="faq-chevron">▾</span></div>
+                <div class="faq-a">
+                    <div class="faq-a-inner">Yes, and that's intentional. Novu joins as a visible participant so
+                        everyone knows the call is being summarized. We believe transparency builds more trust than
+                        hidden recording. You can also enable a meeting-start announcement.</div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">What languages does it support?<span class="faq-chevron">▾</span></div>
+                <div class="faq-a">
+                    <div class="faq-a-inner">Novu currently works best in English, with strong support for Spanish,
+                        French, German, and Portuguese. We're actively expanding language coverage — if you need a
+                        specific language, let us know.</div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">Can I use Novu with Microsoft Teams?<span class="faq-chevron">▾</span></div>
+                <div class="faq-a">
+                    <div class="faq-a-inner">Microsoft Teams support is in active development and will be available for
+                        all Pro and Team subscribers by Q4. Free users will get access shortly after. You can join our
+                        waitlist in settings to be notified first.</div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">Is my data secure?<span class="faq-chevron">▾</span></div>
+                <div class="faq-a">
+                    <div class="faq-a-inner">All data is encrypted in transit and at rest. We are SOC 2 Type II
+                        compliant and do not use your meeting content to train any AI models. For Team plans, you get
+                        dedicated data isolation and can choose your data residency region.</div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">What happens when I hit my free meeting limit?<span class="faq-chevron">▾</span>
+                </div>
+                <div class="faq-a">
+                    <div class="faq-a-inner">You'll get a notification when you're approaching your 5-meeting limit.
+                        Once you hit it, Novu will stop joining new calls until the next month — or until you upgrade to
+                        Pro. We never charge you automatically without your confirmation.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <div class="cta-section">
+        <div class="cta-bg"></div>
+        <div class="cta-content reveal">
+            <h2 class="cta-h">Your next meeting ends<br />in <em>seconds of clarity.</em></h2>
+            <p class="cta-sub">Five meetings a month, completely free. No card. No catch. Just the notes you always
+                meant to take.</p>
+            <button class="btn-cta-white">Start for free — it takes 60 seconds</button>
+            <p class="cta-note">Joins Zoom &amp; Google Meet · Summaries in seconds · Cancel any time</p>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-top">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <div class="footer-logo-mark"></div>
+                    Novu AI
+                </div>
+                <div class="footer-tagline">Turn meeting chaos into instant clarity. AI-powered summaries and action
+                    items, delivered in seconds.</div>
+                <div class="footer-social">
+                    <a class="social-link" href="#" aria-label="Twitter">𝕏</a>
+                    <a class="social-link" href="#" aria-label="LinkedIn">in</a>
+                    <a class="social-link" href="#" aria-label="GitHub">⌥</a>
+                </div>
+            </div>
+            <div>
+                <div class="footer-col-title">Product</div>
+                <div class="footer-links">
+                    <a href="#">Features</a>
+                    <a href="#">Integrations</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Changelog</a>
+                    <a href="#">Roadmap</a>
+                </div>
+            </div>
+            <div>
+                <div class="footer-col-title">Company</div>
+                <div class="footer-links">
+                    <a href="#">About</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Press</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div>
+                <div class="footer-col-title">Support</div>
+                <div class="footer-links">
+                    <a href="#">Docs</a>
+                    <a href="#">API Reference</a>
+                    <a href="#">Status</a>
+                    <a href="#">Security</a>
+                    <a href="#">Community</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-copy">© 2025 Novu AI. All rights reserved.</div>
+            <div class="footer-legal">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
